@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.io.Serializable;
 
+/**
+ * 员工增删改数据传送对象
+ */
 @Data
 public class EmployeeDTO implements Serializable {
 
