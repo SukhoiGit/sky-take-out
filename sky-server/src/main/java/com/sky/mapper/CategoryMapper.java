@@ -41,7 +41,7 @@ public interface CategoryMapper {
     void update(Category category);
 
     /**
-     * 根据类型查询分类
+     * 根据类型查询分类, 比如菜品分类或套餐分类
      */
     List<Category> list(Integer type);
 }
